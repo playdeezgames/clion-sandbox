@@ -1,7 +1,7 @@
 #include <iostream>
 #include <bits/ostream.tcc>
 
-#include "main_menu.h"
+#include "../include/ui/main_menu.h"
 
 int main() {
     main_menu();

@@ -1,8 +1,8 @@
 #include <iostream>
-#include "confirm_quit.h"
-#include "main_menu.h"
+#include "ui/confirm_quit.h"
+#include "ui/main_menu.h"
 
-#include "utility.h"
+#include "ui/utility.h"
 
 void main_menu() {
     for (;;)    {

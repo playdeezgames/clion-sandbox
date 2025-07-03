@@ -1,5 +1,5 @@
-#include "confirm_quit.h"
-#include "utility.h"
+#include "ui/confirm_quit.h"
+#include "ui/utility.h"
 
 #include <iostream>
 #include <bits/ostream.tcc>
