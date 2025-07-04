@@ -1,13 +1,11 @@
-#include <iostream>
-#include <bits/ostream.tcc>
-
-#include "../include/ui/main_menu.h"
+#include <ui/MainMenuState.h>
+#include <ui/Utility.h>
 
 int main() {
-    main_menu();
+    MainMenuState::run();
 
-    std::cout << std::endl;
-    std::cout << "Thanks fer playing!" << std::endl;
+    Utility::blankLine();
+    Utility::writeLine("Thanks fer playin'!");
 
     return 0;
 }
